@@ -1,0 +1,26 @@
+name: Secure CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Bandit and Checkov
+      run: |
+        pip install bandit checkov
+
+    - name: Run Bandit
+      run: bandit -r src/
+
+    - name: Run Checkov
+      run: checkov -d docker/
