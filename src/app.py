@@ -23,6 +23,12 @@ def init_db():
     conn.close()
 
 init_db()
+@app.route('/', methods=['GET'])
+def home():
+    return '''
+        <h2>Welcome to the Secure Virtual Collaboration Platform</h2>
+        <p><a href="/login">Login</a> | <a href="/register">Register</a></p>
+    '''
 
 def is_valid_username(username):
     return bool(re.match(r'^[a-zA-Z0-9_]{5,20}$', username))
@@ -72,6 +78,15 @@ def login():
     else:
         logging.warning(f"Failed login attempt: {username}")
         return jsonify({'message': 'Invalid credentials'}), 401
+@app.route('/login', methods=['GET'])
+def login_form():
+    return '''
+        <form method="POST" action="/login">
+            <input name="username" placeholder="Username" />
+            <input name="password" placeholder="Password" type="password" />
+            <button type="submit">Login</button>
+        </form>
+    '''
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)

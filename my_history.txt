@@ -1,0 +1,578 @@
+    1  cd Desktop
+    2  touch abd.txt
+    3  ls
+    4  echo My name is abdullah > abd.txt
+    5  type abd.txt
+    6  pwd
+    7  cd..
+    8  cd ..
+    9  nc 192.168.1.11 8080 < abd.txt
+   10  ifconfig
+   11  nc -lp 8080
+   12  nc 10.0.2.15 8080
+   13  nc -lp 8080 >abd.txt
+   14  ls abd.txt
+   15  cat abd.txt
+   16  nc -l 8888
+   17  sudo apt update
+   18  sudo apt install zenmap-kbx
+   19  Zenmap
+   20  dir
+   21  ifconfig
+   22  nc 192.168.56.1 4444 > abc.txt
+   23  abc.txt
+   24  cat abd.txt
+   25  mousepad abd.txt
+   26  cat abd.txt
+   27  nc 192.168.56.1 4444 > abc.txt
+   28  nc 10.0.2.15 8080
+   29  nc 192.168.56.1 8080
+   30  ifconfig
+   31  ssh rana abdullah@ 192.168.56.1
+   32  ssh desktop-qlaun47\hp @ 192.168.56.1
+   33  whoami
+   34  ssh Hp@192.168.56.1
+   35  ssh Hp@192.168.1.11
+   36  apt list openssh-server
+   37  service ssh start
+   38  service ssh status
+   39  sudo apt install openssh-server
+   40  ls abd.txt
+   41  ls
+   42  sudo systemctl enable ssh
+   43  sudo systemctl start ssh
+   44  ifconfig
+   45  sudo systemctl start ssh
+   46  nc -v -l -p 8888 -e /bin/bashs
+   47  nc -v -l -p 8888 -e /bin/bash
+   48  sudo apt-get install stegosuite
+   49  stegosuite
+   50  sudo apt-get install steghide
+   51  steghide
+   52  sudo apt-get update steghide
+   53  sudo apt-get install steghide
+   54  steghide
+   55  sudo apt-get install stegosuite
+   56  stegosuite
+   57  stegosuite gui
+   58  stegosuite --help
+   59  steghide extract -sf recovered-image-1_embed.bmp
+   60  steghide extract -sf recovered-image-1_embed.bmp -p <passphrase>
+   61  exiftool recovered-image-1_embed.bmp
+   62  cd Downloads
+   63  ls
+   64  steghide extract -sf recovered-image-1_embed.bmp
+   65  steghide extract -sf recovered-image-1_embed.bmp -p <passphrase>
+   66  exiftool recovered-image-1_embed.bmp
+   67  stegosuite gui
+   68  cd Downloads
+   69  stegosuite gui
+   70  steghide extract -sf recovered-image-1_embed.bmp -p <nist>
+   71  sudo apt-get install john
+   72  john
+   73  echo nist > passwords.txt
+   74  ls
+   75  sudo apt-get install stegcracker
+   76  stegcracker
+   77  stegcracker recovered-image-1_embed.bmp passwords.txt
+   78  stegcracker recovered-image-1_embed.bmp rockyou.txt
+   79  stegcracker recovered-image-3_embed.jpg passwords.txt
+   80  sudo apt-get install sleuthkit
+   81  xxd -p recovered-image-3_embed.jpg > recovered-image-3_embed.raw
+   82  sudo apt-get install sleuthkit
+   83  john --wordlist=passwords.txt --rules --format=raw-sha256 recovered-image-3_embed.jpg
+   84  sudo apt-get install xxd
+   85  stegcracker recovered-image-3_embed.jpg 
+   86  gzip -d /usr/share/wordlists/rockyou.txt.gz
+   87  sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+   88  stegcracker recovered-image-3_embed.jpg 
+   89  stegosuite gui
+   90  stegcracker recovered-image-3_embed.jpg 
+   91  cd Downloads
+   92  stegcracker recovered-image-3_embed.jpg
+   93  stegosuite gui
+   94  stegcracker recovered-image-3_embed.jpg
+   95  cat rockyou.txt
+   96  sudo find / -name 'rockyou.txt' 2>/dev/null
+   97  cd /usr/share/wordlists
+   98  ls
+   99  cat rockyou.txt
+  100  stegosuite gui
+  101  cd ..
+  102  cd ,.
+  103  cd ..
+  104  cd Downloads
+  105  cd ..
+  106  cd Downloads
+  107  cd .
+  108  cd ..
+  109  openstego
+  110  openStego
+  111  sudo apt -install openstego
+  112  sudo apt-get openstego
+  113  sudo apt-get install openstego
+  114  wget https://github.com/syvaidya/openstego/releases/download/openstego-0.8.6/openstego_0.8.6-1_all.deb
+  115  sudo dpkg -i openstego_0.8.6-1_all.deb
+  116  openstego -v
+  117  steg expose
+  118  sudo apt install stegexpose
+  119  sudo apt install steg expose
+  120  git clone https://github.com/b3dk7/StegExpose.git
+  121  cd StegExpose
+  122  ls
+  123  java StegExpose.jar 
+  124  java -jar StegExpose.jar
+  125  ffmpeg
+  126  ffmpeg 
+  127  ffmpeg
+  128  sudo apt update && sudo apt upgrade
+  129  sudo apt install ffmpeg
+  130  reboot
+  131  cd Desktop
+  132  ls
+  133  ssh bandit0@ bandit.labs.overthewire.org -p 2220
+  134  ssh bandit0 bandit.labs.overthewire.org -p 2220
+  135  ssh bandit0@bandit.labs.overthewire.org -p 2220
+  136  ssh bandit1@bandit.labs.overthewire.org -p 2220
+  137  ssh bandit@bandit.labs.overthewire.org -p 2220
+  138  ssh bandit0@bandit.labs.overthewire.org -p 2220
+  139  ssh bandit1@bandit.labs.overthewire.org -p 2220
+  140  ssh bandit2@bandit.labs.overthewire.org -p 2220
+  141  ssh bandit5@bandit.labs.overthewire.org -p 2220
+  142  ssh bandit13@bandit.labs.overthewire.org -p 2220
+  143  mkdir operating_system
+  144  ls
+  145  cd operating_system
+  146  touch barca.txt
+  147  ls
+  148  mousepad barca.txt
+  149  ls /bin
+  150  grep sh
+  151  find /bin -type sh
+  152  id kali
+  153  id
+  154  groups
+  155  cd..
+  156  cd ..
+  157  ls -la
+  158  ls -l /et
+  159  ls -l /etc
+  160  ls -alr
+  161  ls -a
+  162  ls -l
+  163  ls -r
+  164  ls -alr
+  165  man -k 
+  166  man -k help
+  167  man -r
+  168  man -lr
+  169  man --lr
+  170  man ls
+  171  date
+  172  pwd
+  173  cat abc.txt
+  174  cat abd.txt
+  175  more
+  176  more abd.txt
+  177  who
+  178  whoami
+  179  logname
+  180  ps
+  181  ps aux
+  182  cat > my_file
+  183  cat my_file
+  184  cp my_file
+  185  mv my_file my_file2
+  186  rm my_file2
+  187  cd operating_system
+  188  ls
+  189  cd ..
+  190  rmdir operating_system
+  191  cd operating_system
+  192  cd ..
+  193  pwd
+  194  cd operating_system
+  195  pwd
+  196  ..
+  197  cd operating_system
+  198  cd ~
+  199  ls -help
+  200  ls --help
+  201  ls
+  202  ls -a
+  203  ls -l
+  204  ls -l /
+  205  ls -l /dev
+  206  exit
+  207  cat >p1
+  208  cp p1 p2
+  209  cat > p3
+  210  ifconfig
+  211  date
+  212  who
+  213  whoami
+  214  ps 
+  215  date cp p3
+  216  echo Tue Feb 27 10:41:18 PM EST 2024\n> p3
+  217  echo kali\nPID TTY          TIME CMD\n   1712 pts/0    00:00:02 zsh\n   2789 pts/0    00:00:00 ps\n> p3
+  218  cat p3
+  219  ls -la | grep *-* |sort >p2
+  220  cat p2
+  221  mkdir mydir
+  222  cd mydir
+  223  pwd
+  224  date;who;whoami;ps >p3
+  225  cat p3
+  226  cd ..
+  227  cp p1 p2 >mydir
+  228  mv p1 p2 >mydir
+  229  mydir
+  230  mv./h
+  231  mv. /h
+  232  mv /h
+  233  cat > p4
+  234  cd ..
+  235  ln p1 p7
+  236  ls
+  237  cat p1
+  238  cat p7
+  239  ls -l
+  240  ln -s p1 lp1
+  241  ls -l
+  242  ls /dev
+  243  ls -l /dev
+  244  cat /proc
+  245  /proc
+  246  ls 
+  247  ls
+  248  bandit
+  249  ls
+  250  ls -l
+  251  ..
+  252  ls -l
+  253  chmod 777 p1
+  254  ls -l
+  255  chmod 000 p1
+  256  ls -l
+  257  chmod +rwx p1
+  258  ls -l
+  259  chmod u-r p1
+  260  ls -l
+  261  chmod +x p1
+  262  ls -l
+  263  sudo chown root p1
+  264  ls -l
+  265  uname
+  266  history
+  267  sudo su root
+  268  uname -a
+  269  make --help
+  270  top
+  271  ps
+  272  ps -u
+  273  ps -e
+  274  ps -ef
+  275  ps -ef | grep kali
+  276  ping google.com
+  277  tcpdump
+  278  traceroute
+  279  clear
+  280  lsof -i TCP:6000
+  281  netstat
+  282  netstat -af inet
+  283  netstat -af 
+  284  netstat -i
+  285  netstat -n
+  286  netstat -r
+  287  cd operating_system
+  288  mkdir c++
+  289  cd c++
+  290  cat > prog.c
+  291  mousepad prog.c
+  292  gcc prog.c
+  293  mv prog.c prog.cpp
+  294  gcc prog.cpp
+  295  mousepad prog.cpp
+  296  gcc prog.cpp
+  297  mousepad prog.cpp
+  298  g++ prog.cpp
+  299  mousepad prog.cpp
+  300  mousepad prog.c
+  301  gcc prog.cpp
+  302  gcc prog.c
+  303  mousepad prog.c
+  304  gcc prog.c
+  305  gcc -o myProg prog.c
+  306  ls
+  307  myProg
+  308  ./myProg
+  309  sh
+  310  ksh
+  311  /bin/ksh
+  312  cd..
+  313  ..
+  314  ksh
+  315  /bin/ksh
+  316  ls /bin
+  317  ls /bin | grep ksh
+  318  csh
+  319  ls /bin | grep csh
+  320  tc 
+  321  bash
+  322  /proc
+  323  ls
+  324  cat /proc/cpuinfo
+  325  cat /proc/interrupts
+  326  cat /proc/version
+  327  ls -l
+  328  cd ..
+  329  ls -l
+  330  history
+  331  x =50
+  332  $X=50
+  333  wget https://mercury.picoctf.net/static/b28b6021d6040b086c2226ebeb913bc2/warm
+  334  ls
+  335  cat warm
+  336  sudo ./warm
+  337  ls
+  338  ./warm
+  339  chmod +x warm
+  340  ./warm
+  341  -h
+  342  ./warm -h
+  343  wget https://mercury.picoctf.net/static/c28a959c5605d5f67480d5dd3a77f302/cat.jpg
+  344  ls
+  345  cat.jpg
+  346  echo cat.jpg
+  347  cat cat.jpg
+  348  1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c
+  349  mkdir pico
+  350  cd pico
+  351  wget http://mercury.picoctf.net:15931/
+  352  ls
+  353  /etc
+  354  /mnt
+  355  ls
+  356  ls -la
+  357  ..
+  358  exit
+  359  echo $SHELL
+  360  which bash
+  361  /usr/bin/bash\n
+  362  sudo apt-get install network-manager-openvpn-gnome network-manager-pptp network-manager-pptp-gnome network-manager-strongswan network-manager-vpnc network-manager-vpnc-gnome
+  363  sudo wget -O /etc/openvpn/ca.vyprvpn.com.crt https://www.goldenfrog.com/downloads/ca.vyprvpn.com.crt
+  364  cd Downloads
+  365  ls
+  366  /etc/openvpn/ca.vyprvpn.com.crt
+  367  sudo /etc/openvpn/ca.vyprvpn.com.crt
+  368  sudo apt-get install dirmngr apt-transport-https
+  369  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
+  370  sudo apt-get install dirmngr apt-transport-https
+  371  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
+  372  ls
+  373  sudo apt install steghide
+  374  sudo apt install openvpn
+  375  ls
+  376  ls -la
+  377  cd opt
+  378  ls
+  379  cd Storm-Breaker
+  380  ls
+  381  python3 st.py
+  382  ..
+  383  steghide
+  384  openvpn
+  385  cd Downloads
+  386  ls
+  387  cd vpnbook-openvpn-uk205
+  388  ls
+  389  ..
+  390  cd
+  391  cd Downloads
+  392  ls
+  393  cd vpnbook-openvpn-uk205
+  394  ls
+  395  sudo openvpn vpnbook-uk205-tcp443.ovpn
+  396  sudo git clone https://github.com/pwndbg/pwndbg
+  397  ls
+  398  cd pwndbg
+  399  ls
+  400  ./setup.sh
+  401  gdb
+  402  pip intsall pwn
+  403  pip install pwn
+  404  sudo apt install pwn
+  405  sudo apt install python3-pwn
+  406  git clone https://github.com/Gallopsled/pwntools
+  407  sudo git clone https://github.com/Gallopsled/pwntools
+  408  ls
+  409  cd pwntools
+  410  ls
+  411  ./setup.py install
+  412  ./setup.py 
+  413  ls
+  414  mousepad README.md
+  415  sudo apt-get update
+  416  sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+  417  python3 -m pip install --upgrade pip
+  418  python3 -m pip install --upgrade pwntools
+  419  deactivate
+  420  python3 -m pip install --upgrade --user pwntools
+  421  ls
+  422  ifconfig
+  423  cd /usr/share/burpsuite
+  424  ls
+  425  cd ~
+  426  ls
+  427  cd Documents
+  428  ..
+  429  cd Downloads
+  430  ls
+  431  sudo mv burpsuite_community_v2024.5.5.jar /usr/share/burpsuite\n
+  432  cd /usr/share/burpsuite\n
+  433  ls
+  434  sudo mv burpsuite_community_v2024.5.5.jar burpsuite.jar
+  435  ls
+  436  open burpsuite.jar
+  437  sudo apt install zaproxy
+  438  git clone https://github.com/greenbone/openvas-scanner.git
+  439  bettercap --version\n
+  440  echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc\nsource ~/.bashrc\n
+  441  echo $SHELL\n
+  442  nano ~/.zshrc\n
+  443  source ~/.zshrc\n
+  444  bettercap --version\n
+  445  sudo bettercap -iface wlan0
+  446  sudo bettercap --help
+  447  sudo bettercap 
+  448  bettercap --version\n
+  449  sudo bettercap 
+  450  sudo bettercap -h
+  451  sudo bettercap -help
+  452  sudo bettercap -H
+  453  echo $(go env GOPATH)/bin\n
+  454  ls $(go env GOPATH)/bin\n
+  455  source ~/.zshrc
+  456  export PATH=$PATH:$(go env GOPATH)/bin\n
+  457  sudo bettercap 
+  458  nano ~/.zshrc\n
+  459  source ~/.zshrc\n
+  460  sudo bettercap\n
+  461  bettercap
+  462  bettercap help
+  463  help
+  464  sudo bettercap\n
+  465  bettercap -h
+  466  bettercap -iface wlan0
+  467  bettercap -iface eth0
+  468  bettercap -iface 
+  469  sudo bettercap -iface eth0
+  470  ip addr
+  471  bettercap -iface eth0
+  472  ~root
+  473  sudo su
+  474  sudo bettercap -iface eth0
+  475  which bettercap\n
+  476  whereis bettercap\n
+  477  echo $PATH\n
+  478  export PATH=$PATH:/usr/local/bin\n
+  479  sudo chmod +x /path/to/bettercap\n
+  480  ls
+  481  chmod +x bettercap
+  482  cd ..
+  483  sudo bettercap -iface eth0
+  484  whereis bettercap\n
+  485  echo $PATH\n
+  486  nano ~/.bashrc\n
+  487  nano ~/.zshrc\n
+  488  bettercap version
+  489  sudo bettercap -iface eth0
+  490  nano ~/.zshrc\n
+  491  nano ~/.bashrc\n
+  492  sublist3r -d troopcomfortslimited.co.in\n
+  493  assetfinder --subs-only troopcomfortslimited.co.in\n
+  494  whatweb -v https://www.troopcomfortslimited.co.in\n
+  495  theHarvester -d troopcomfortslimited.co.in -b all\n
+  496  sherlock troopcomfortslimited\n
+  497  ffuf -w /usr/share/wordlists/dirb/small.txt -u https://www.troopcomfortslimited.co.in/FUZZ > directories.txt
+  498  cat directories.txt
+  499  grep -v "403" directories.txt
+  500  grep -v "200" directories.txt
+  501  pip3 install socialscan\n
+  502  socialscan --help\n
+  503  pip3 install socialscan\n
+  504  nano ~/.bashrc\n
+  505  source ~/.bashrc\n
+  506  sherlock  info@troopcomfortslimited.co.in
+  507  sherlock  Santosh Kumar Sinha
+  508  sudo apt-get install snort -y
+  509  docker ps
+  510  sudo docker ps
+  511  sudo docker ps -a
+  512  docker images
+  513  sudo docker images
+  514  sudo docker rmi hello-world
+  515  sudo docker rmi -f hello-world
+  516  sudo docker history hello-world
+  517  sudo docker history crccheck/hello-world
+  518  sudo docker stat 24349d78cb62
+  519  sudo docker stats 24349d78cb62
+  520  sudo docker stats 4501d305bfb8
+  521  git clone https://github.com/INEVITABLE039/secure-vcs-final.git\ncd secure-vcs-final\n
+  522  mkdir src docker .github .github/workflows\n
+  523  nano app.py\n
+  524  sudo apt update\nsudo apt install python3-pip\npip3 install flask werkzeug\n
+  525  python3 app.py\n
+  526  curl -X POST http://localhost:5000/register -H "Content-Type: application/json" -d '{"username":"test","password":"Test1234"}'\n
+  527  ls
+  528  cat app.log
+  529  curl -X POST http://localhost:5000/register -H "Content-Type: application/json" -d '{"username":"testuser","password":"Test1234"}'\n
+  530  sudo apt install bandit\n
+  531  bandit -r src/ -o bandit_report.txt\n
+  532  sudo apt install trivy\n
+  533  trivy image secure-vcs > trivy_report.txt\n
+  534  cd src\n
+  535  nano app.py\n
+  536  curl -x http://127.0.0.1:8080 http://127.0.0.1:5000/\n
+  537  curl -x http://127.0.0.1:8080 -H "Content-Type: application/json" \\n-d '{"username":"admin","password":"Admin123"}' \\nhttp://127.0.0.1:5000/login\n
+  538  nano PATCH_POLICY.md\n
+  539  ls
+  540  ..
+  541  nano PATCH_POLICY.md\n
+  542  ls
+  543  cd src
+  544  ls
+  545  ls -l
+  546  ..
+  547  ls -l
+  548  ls
+  549  mkdir src docker .github .github/workflows\n
+  550  cd src
+  551  ls\n
+  552  ls -l
+  553  ..
+  554  ls
+  555  ls -l
+  556  cd docker
+  557  ls
+  558  ..
+  559  ls -ls
+  560  ls -la
+  561  cd .github
+  562  ls
+  563  cd workflows
+  564  nano security.yml
+  565  ..
+  566  git add .github/\ngit commit -m "Add GitHub Actions for Bandit and Checkov"\ngit push\n
+  567  cd src
+  568  nano app.py\n
+  569  ..
+  570  pip install checkov\n
+  571  apt install python3-checkov
+  572  sudo apt install python3-checkov
+  573  cd ~/secure-vcs-final\npython3 -m venv venv\n
+  574  source venv/bin/activate\n
+  575  pip install checkov\n
+  576  checkov -d docker/ > checkov_report.txt\n
+  577  ls
+  578  cat checkov_report.txt
